@@ -1,3 +1,5 @@
+BETTING GAME 1.0
+
 Part I - Logic
 Write a single-player betting game that runs in the browser. The player starts off with a bankroll of $100 and bets money to guess a number randomly chosen by the game. If the player loses all their money, the game ends.
 
