@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LHL Betting Game</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+  <!--   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" ></script>
+    <script src="js/application.js"></script>
+  </head>
+  <body>
+
+    <div id="box1" class="box blurred-bg tinted">
+      <div class="content">
+        <h1>Betting Game 1.0</h1>
+        <!-- <h2>blah blah blah</h2> -->
+        <!-- <p>Drag me</p> -->
+        <p> Current Bank: $<span id="userBank_output">100</span></p>
+        <p><span id="userChoice_output"></span></p>
+        <p><span id="comp_output"></span></p>
+      
+        <form action="/" class = "betting_game">
+          <label>Let's pick a number!<br></label>
+          <input type="text" id="userChoice"><br>
+          <label>How much would you like to bet?<br></label>
+          <input type="text" id="userBet">
+        </form>
+
+        </br>
+        <button type="submit" class="btn">Let's Roll!</button></p>
+        <p><span id="comp_output"></span></p>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
